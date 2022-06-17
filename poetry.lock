@@ -107,10 +107,18 @@ category = "dev"
 optional = false
 python-versions = "*"
 
+[[package]]
+name = "wikiextractor"
+version = "3.0.6"
+description = "A tool for extracting plain text from Wikipedia dumps"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "4d1de49710d78bd295469a572576efe3d5b96e6e8760458e870affe880e8d10e"
+content-hash = "afc3aa0a7d39220396e927841e2940a96d571a551e50101a5fd45da97a52eb4d"
 
 [metadata.files]
 atomicwrites = [
@@ -152,4 +160,8 @@ pytest = [
 wcwidth = [
     {file = "wcwidth-0.2.5-py2.py3-none-any.whl", hash = "sha256:beb4802a9cebb9144e99086eff703a642a13d6a0052920003a230f3294bbe784"},
     {file = "wcwidth-0.2.5.tar.gz", hash = "sha256:c4d647b99872929fdb7bdcaa4fbe7f01413ed3d98077df798530e5b04f116c83"},
+]
+wikiextractor = [
+    {file = "wikiextractor-3.0.6-py3-none-any.whl", hash = "sha256:f4506990bf9c14e3cc92dc85a0a89554fef975cc1b28dcb9a4d31c73a8ef2133"},
+    {file = "wikiextractor-3.0.6.tar.gz", hash = "sha256:7041ff57884c16409e9b911ccd0106c218b88cbceabb86dd1443637afa8284de"},
 ]
